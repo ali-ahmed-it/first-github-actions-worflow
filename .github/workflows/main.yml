@@ -1,0 +1,14 @@
+name: ali ahmed
+
+on:
+   push:
+     branches: [ main ]
+
+jobs:
+  demo:
+      runs-on: ubuntu-latest
+
+      steps:
+          nmae: greetings
+          run: echo "hello from ali"continue-on-error: 
+          
